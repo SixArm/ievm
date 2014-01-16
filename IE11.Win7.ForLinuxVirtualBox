@@ -1,0 +1,2 @@
+curl --progress-bar -OC - "https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE11_Win7/Linux/IE11.Win7.ForLinuxVirtualBox.part{1.sfx,2.rar,3.rar,4.rar}"
+unrar x IE11.Win7.ForLinuxVirtualBox.part1.sfx

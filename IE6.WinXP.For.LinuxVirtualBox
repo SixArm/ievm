@@ -1,0 +1,2 @@
+curl --progress-bar -OC - "https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE6_WinXP/Linux/IE6.WinXP.For.LinuxVirtualBox.sfx"
+unrar x IE6.WinXP.For.LinuxVirtualBox.sfx
