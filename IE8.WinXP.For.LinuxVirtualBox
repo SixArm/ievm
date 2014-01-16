@@ -1,5 +1,8 @@
-base=https://az412801.vo.msecnd.net/vhd
+#!/bin/bash
 name=IE8.WinXP.For.LinuxVirtualBox
-wget "$base/VMBuild_20131127/VirtualBox/IE8_WinXP/Linux/$name.part{1.sfx,2.rar}"
-wget "$base/md5/122013/$name.part{1.sfx,2.rar}.txt"
-unrar x "$name.part1.sfx"
+for part in part1.sfx part2.rar; do 
+  wget -nc https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE8_WinXP/Linux/$name.$part
+  wget -nc https://az412801.vo.msecnd.net/vhd/md5/122013/$name.$part.txt
+  diff <(md5sum $name.$part) <(cat $name.$part.txt)
+done
+./$name.part1.sfx
