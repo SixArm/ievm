@@ -4,7 +4,7 @@ This repo has scripts to download IE and Windows virtual machines from http://mo
 
 We have the scripts for Linux VirtualBox.
 
-Requirements: curl, unrar.
+Requirements: wget, md5sum, unrar.
 
 Example:
 

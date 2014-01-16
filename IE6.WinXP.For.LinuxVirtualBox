@@ -1,2 +1,5 @@
-curl --progress-bar -O "https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE6_WinXP/Linux/IE6.WinXP.For.LinuxVirtualBox.sfx"
-unrar x IE6.WinXP.For.LinuxVirtualBox.sfx
+base=https://az412801.vo.msecnd.net/vhd
+name=IE6.WinXP.For.LinuxVirtualBox
+wget "$base/VMBuild_20131127/VirtualBox/IE6_WinXP/Linux/$name.sfx"
+wget "$base/md5/122013/$name.sfx.txt"
+unrar x "$name.sfx"

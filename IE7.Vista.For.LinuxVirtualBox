@@ -1,2 +1,5 @@
-curl --progress-bar -O "https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE7_Vista/Linux/IE7.Vista.For.LinuxVirtualBox.part{1.sfx,2.rar,3.rar,4.rar}"
-unrar x IE7.Vista.For.LinuxVirtualBox.part1.sfx
+base=https://az412801.vo.msecnd.net/vhd
+name=IE7.Vista.For.LinuxVirtualBox
+wget "$base/VMBuild_20131127/VirtualBox/IE7_Vista/Linux/$name.part{1.sfx,2.rar,3.rar,4.rar}"
+wget "$base/md5/122013/$name.part{1.sfx,2.rar,3.rar,4.rar}.txt"
+unrar x "$name.part1.sfx"
