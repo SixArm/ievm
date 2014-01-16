@@ -1,2 +1,2 @@
-curl --progress-bar -OC - "https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE10_Win8/Linux/IE10.Win8.For.LinuxVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
+curl --progress-bar -O "https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE10_Win8/Linux/IE10.Win8.For.LinuxVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
 unrar x IE10.Win8.For.LinuxVirtualBox.part1.sfx
