@@ -3,7 +3,7 @@
 name=IE6.WinXP.For.LinuxVirtualBox
 parts=(sfx)
 
-base_md5=https://az412801.vo.msecnd.net/md5/122013
+base_md5=https://az412801.vo.msecnd.net/vhd/md5/122013
 base_build=https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE6_WinXP/Linux
 
 for part in "${parts[@]}"; do

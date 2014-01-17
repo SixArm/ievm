@@ -3,7 +3,7 @@
 name=IE7.Vista.For.LinuxVirtualBox
 parts=(part1.sfx part2.rar part3.rar part4.rar)
 
-base_md5=https://az412801.vo.msecnd.net/md5/122013
+base_md5=https://az412801.vo.msecnd.net/vhd/md5/122013
 base_build=https://az412801.vo.msecnd.net/vhd/VMBuild_20131127/VirtualBox/IE7_Vista/Linux
 
 for part in "${parts[@]}"; do
