@@ -50,7 +50,9 @@ download () {
   done
 
   echo "Extract ..."
-  ./$name.part1.sfx
+  sfx=$name.part1.sfx
+  chmod +x $sfx
+  ./$sfx
 
   echo "Done."
 
